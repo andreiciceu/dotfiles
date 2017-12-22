@@ -1,0 +1,27 @@
+/*
+ * GLOBALS
+ */
+.foreground {
+  color: #D7C9B3;
+}
+
+.highlight {
+  color: #357287;
+}
+
+.highlight-bg {
+  background-color: #58665B;
+}
+
+.background {
+  background-color: #262B26;
+  width: 100%;
+  height: 22px;
+}
+
+.screen-icon {
+  display: inline-block;
+  float: left;
+  padding: 1px 6.5px 0 3px;
+  height: 22px;
+}

@@ -1,0 +1,8 @@
+#!/bin/bash
+wal -i "$1"
+cat ~/.cache/wal/colors.scss | sed s/\\$/@/g > ~/.atom/packages/atom-min-ui/styles/min.less
+cat ~/.cache/wal/colors.scss | sed s/\\$/@/g > ~/.atom/packages/min-syntax/styles/colors.less
+
+termcolors -i xresources -o iterm < ~/.cache/wal/colors.Xresources > ~/Themes/iterm/colors/output.itermcolors
+node ~/scripts/ui/iterm-update.js
+node ~/scripts/ui/ubersicht-update.js
