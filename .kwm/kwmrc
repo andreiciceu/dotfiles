@@ -8,3 +8,4 @@ kwmc config lock-to-container off
 
 include spaces
 include rules
+include hotkeys

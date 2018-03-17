@@ -10,7 +10,7 @@ render: (output) ->
     dev: 'code',
     console: 'terminal',
     test: 'cubes',
-    games: 'folder'
+    files: 'folder'
   }
   str = ''
 
