@@ -1,33 +1,33 @@
-command: "/usr/local/bin/kwmc query space active name"
+command: "/usr/local/bin/chunkc tiling::query --desktop id"
 
 refreshFrequency: 500
 
 render: (output) ->
   output = output.trim();
-  icons = {
-    main: 'television',
-    web: 'firefox',
-    dev: 'code',
-    console: 'terminal',
-    test: 'cubes',
-    files: 'folder'
+  screens = {
+    1: {name: 'main', icon: 'television'},
+    2: {name: 'web', icon: 'firefox'},
+    3: {name: 'dev', icon: 'code'},
+    4: {name: 'console', icon: 'terminal'},
+    5: {name: 'test', icon: 'cubes'},
+    6: {name: 'files', icon: 'folder'},
   }
   str = ''
 
-  createIcon = (icon, screen) ->
+  createIcon = (screen, screenId) ->
     cls = 'foreground'
     cls2 = ''
-    if screen is output
+    if screenId is output
       cls = 'highlight'
       cls2 = 'highlight-bg'
     str += "<div class='screen-icon #{cls2}'>
-    <i class='fa fa-#{icon}' aria-hidden='true'></i></div>\n"
+    <i class='fa fa-#{screen.icon}' aria-hidden='true'></i></div>\n"
 
-  v = createIcon icon, screen for own screen, icon of icons
+  v = createIcon screen, screenId for own screenId, screen of screens
   "<div>
       #{str}
-      <span class='highlight'>(^_^)</span>
-      <span class='foreground'>#{output}</span>
+      <div class='highlight smiley'>(^_^)</div>
+      <span class='foreground'>#{screens[output].name}</span>
     </div>
   "
 
@@ -39,4 +39,7 @@ style: """
   i
     padding-top: 2px
     padding-left: 3px
+  .smiley
+    display: inline-block
+    padding: 2px
 """
