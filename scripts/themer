@@ -22,8 +22,8 @@ imgName="$(basename "$1" | cut -d'.' -f1)"
 cp ~/.gvcci/themes/"$imgName"/atom-min.less ~/.atom/packages/atom-min-ui/styles/min.less
 cp ~/.gvcci/themes/"$imgName"/atom-min.less ~/.atom/packages/min-syntax/styles/colors.less
 cp ~/.gvcci/themes/"$imgName"/ubersicht.css ~/ubersicht/widgets/colors.css
-cp ~/ubersicht/imports.coffe ~/ubersicht/imports.coffe.swap
-mv ~/ubersicht/imports.coffe.swap ~/ubersicht/imports.coffe
+cp ~/ubersicht/widgets/imports.coffee ~/ubersicht/widgets/imports.coffee.swap
+mv ~/ubersicht/widgets/imports.coffee.swap ~/ubersicht/widgets/imports.coffee
 
 #   Update all Wallpapers
 function wallpaper() {

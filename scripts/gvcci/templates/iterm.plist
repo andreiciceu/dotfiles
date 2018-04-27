@@ -245,8 +245,8 @@
           "Text" : "[1;2D"
         },
         "0xf703-0x280000" : {
-          "Action" : 11,
-          "Text" : "0x1b 0x1b 0x5b 0x43"
+          "Action" : 10,
+          "Text" : "f"
         },
         "0xf700-0x240000" : {
           "Action" : 10,
@@ -277,8 +277,8 @@
           "Text" : "[1;6B"
         },
         "0xf702-0x280000" : {
-          "Action" : 11,
-          "Text" : "0x1b 0x1b 0x5b 0x44"
+          "Action" : 10,
+          "Text" : "b"
         },
         "0xf72b-0x20000" : {
           "Action" : 10,
@@ -391,7 +391,7 @@
         "Alpha Component" : 1,
         "Green Component" : {{ansi-green-normal-green-float}}
       },
-      "Normal Font" : "MesloLGSForPowerline-Regular 12",
+      "Normal Font" : "DejaVuSansMono 12",
       "Custom Directory" : "No",
       "Link Color" : {
         "Red Component" : 0,
