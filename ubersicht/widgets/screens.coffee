@@ -5,11 +5,11 @@ refreshFrequency: 500
 render: (output) ->
   output = output.trim();
   screens = {
-    1: {name: 'main', icon: 'television'},
-    2: {name: 'web', icon: 'firefox'},
-    3: {name: 'dev', icon: 'code'},
+    1: {name: 'web', icon: 'firefox'},
+    2: {name: 'dev', icon: 'code'},
+    3: {name: 'test', icon: 'cubes'},
     4: {name: 'console', icon: 'terminal'},
-    5: {name: 'test', icon: 'cubes'},
+    5: {name: 'main', icon: 'television'},
     6: {name: 'files', icon: 'folder'},
   }
   str = ''
@@ -27,7 +27,7 @@ render: (output) ->
   "<div>
       #{str}
       <div class='highlight smiley'>(^_^)</div>
-      <span class='foreground'>#{screens[output].name}</span>
+      <span class='foreground'>#{ if screens[output] then screens[output].name}</span>
     </div>
   "
 
