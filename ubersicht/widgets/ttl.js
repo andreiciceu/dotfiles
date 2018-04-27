@@ -23,7 +23,7 @@ render: function (output) {
     <div class='progress-bar'>
       <div class='progress' style='width: ${procLived * 100}%'>
       </div>
-      <div class='foreground texts'>
+      <div class='texts'>
         <span class='proc'>
           ${Math.round(procLived * 100 * 1000) / 1000} %
         </span>

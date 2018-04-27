@@ -1,20 +1,7 @@
 /*
  * GLOBALS
  */
-.foreground {
-  color: #BCC7C5;
-}
-
-.highlight {
-  color: #31698A;
-}
-
-.highlight-bg {
-  background-color: #58665B;
-}
-
 .background {
-  background-color: #282F23;
   width: 100%;
   height: 23px;
 }
@@ -27,7 +14,6 @@
 }
 
 .progress-bar {
-  background-color: #58665B;
   /* border: 1px black solid; */
   border-radius: 5px;
   min-height: 18px;
@@ -37,7 +23,6 @@
 
 .progress-bar .progress {
   min-height: 18px;
-  background-color: #225555;
   border-radius: 5px;
   /* border-right: 1px green solid; */
 }

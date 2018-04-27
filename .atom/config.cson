@@ -8,6 +8,8 @@
     titleBar: "custom"
   "exception-reporting":
     userId: "168ad1c5-77f3-4dec-8cc0-3f8663ae643c"
+  "linter-ui-default":
+    panelHeight: 300
   "no-title-bar": {}
   welcome:
     showOnStartup: false

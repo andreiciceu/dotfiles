@@ -1,0 +1,6 @@
+.foreground { color: {{foreground-hex}}; }
+.highlight { color: {{cursor-hex}}; }
+.highlight-bg { background-color: {{ansi-red-normal-hex}}; }
+.background { background-color: {{background-hex}}; }
+.progress-bar { background-color: {{ansi-green-normal-hex}}; color: {{ansi-white-bright-hex}}; }
+.progress-bar .progress { background-color: {{ansi-green-bright-hex}}; }
