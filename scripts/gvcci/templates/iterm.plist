@@ -391,7 +391,7 @@
         "Alpha Component" : 1,
         "Green Component" : {{ansi-green-normal-green-float}}
       },
-      "Normal Font" : "DejaVuSansMono 12",
+      "Normal Font" : "DejaVuSansMono 13",
       "Custom Directory" : "No",
       "Link Color" : {
         "Red Component" : 0,
