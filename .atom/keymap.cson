@@ -33,3 +33,4 @@
 'atom-text-editor':
     'cmd-shift-K': 'editor:delete-line'
     'cmd-shift-R': 'tree-view:reveal-active-file'
+    'cmd-shift-C': 'editor:copy-path'

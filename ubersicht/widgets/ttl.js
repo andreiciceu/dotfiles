@@ -1,4 +1,3 @@
-command: "echo Hello World!",
 refreshFrequency: 1000,
 render: function (output) {
   const maxAge = 90;
@@ -28,7 +27,7 @@ render: function (output) {
           ${Math.round(procLived * 100 * 1000) / 1000} %
         </span>
         <span class='sec-left'>
-          ${numberWithCommas(toLiveSeconds) + 's'}
+          ${numberWithCommas(toLiveSeconds) + ' s'}
         </span>
       </div>
     </div>
