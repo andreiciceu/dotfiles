@@ -75,4 +75,4 @@ chunkc tiling::rule --name \"The Unarchiver\" --state float
 chunkc tiling::rule --owner \"App Store\" --state float
 chunkc tiling::rule --owner Emacs --except "^$" --state tile
 
-chunkc set window_float_topmost 1
+# chunkc set window_float_topmost 1
