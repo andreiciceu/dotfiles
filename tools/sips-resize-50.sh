@@ -4,7 +4,7 @@ if [[ ! $1 ]]; then
     exit 0
 fi
 
-for f in $(ls $1"/*@2x.(png|PNG|jpg|JPG|jpeg|JPEG)")
+for f in $(ls $1"/*@2x.*")
 do
     filename=$(basename $f | sed 's/@2x././g')
     echo $filename
