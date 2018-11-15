@@ -69,10 +69,21 @@ chunkc set 5_desktop_mode                float
 chunkc set 6_desktop_mode                float
 
 
-# Custom window rules
+# window floating rules
 chunkc tiling::rule --owner Finder --name Copy --state float
 chunkc tiling::rule --name \"The Unarchiver\" --state float
 chunkc tiling::rule --owner \"App Store\" --state float
 chunkc tiling::rule --owner Emacs --except "^$" --state tile
+
+
+# window desktop rules
+chunkc tiling::rule --name \"Firefox\" --desktop 1
+chunkc tiling::rule --name \"Code\" --desktop 2
+chunkc tiling::rule --name \"Simulator\" --desktop 4
+chunkc tiling::rule --name \"iTerm\" --desktop 4
+chunkc tiling::rule --name \"Spotify\" --desktop 5
+chunkc tiling::rule --name \"Steam\" --desktop 6
+
+
 
 # chunkc set window_float_topmost 1
