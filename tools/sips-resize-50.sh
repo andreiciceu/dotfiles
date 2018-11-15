@@ -3,10 +3,8 @@ if [[ ! $1 ]]; then
     echo "Usage: $0 /path/to.*.@2x"
     exit 0
 fi
-
-for f in $(ls $1"/*@2x.*")
-do
-    filename=$(basename $f | sed 's/@2x././g')
+    filename=$1
+    f = $1
     echo $filename
 
     H=$(sips -g pixelHeight "$f" | grep 'pixelHeight' | cut -d: -f2)
@@ -16,4 +14,3 @@ do
     W50=$(($W / 2))
 
     sips --resampleHeight "$H50" "$f" >/dev/null
-done
