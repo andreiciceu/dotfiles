@@ -77,11 +77,11 @@ chunkc tiling::rule --owner Emacs --except "^$" --state tile
 
 
 # window desktop rules
-chunkc tiling::rule --name \"Firefox\" --desktop 1
-chunkc tiling::rule --name \"Code Insiders\" --desktop 2
-chunkc tiling::rule --name \"Simulator\" --desktop 3
-chunkc tiling::rule --name \"iTerm\" --desktop 4
-chunkc tiling::rule --name \"Spotify\" --desktop 5
+chunkc tiling::rule --owner Firefox --desktop 1
+chunkc tiling::rule --owner Code --desktop 2
+chunkc tiling::rule --owner Simulator --desktop 3
+chunkc tiling::rule --owner iTerm --desktop 4
+chunkc tiling::rule --owner Spotify --desktop 5
 chunkc tiling::rule --name \"Steam\" --desktop 6
 
 
