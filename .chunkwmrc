@@ -83,7 +83,7 @@ chunkc tiling::rule --owner Code --desktop 2
 chunkc tiling::rule --owner Simulator --desktop 3
 chunkc tiling::rule --owner iTerm --desktop 4
 chunkc tiling::rule --owner Spotify --desktop 5
-chunkc tiling::rule --name \"Steam\" --desktop 6
+chunkc tiling::rule --onwer Steam --desktop 6
 
 
 
