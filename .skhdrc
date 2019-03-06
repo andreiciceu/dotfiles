@@ -2,3 +2,6 @@ cmd + alt - h : chunkc tiling::window --toggle float
 cmd + alt - g : chunkc tiling::window --toggle sticky
 alt - s : chunkc tiling::window -t sticky; chunkc tiling::window -W pip-right
 cmd + alt - d : chunk tiling::window -t sticky; chunkc tiling::window -W pip-right
+cmd + alt - b : chunkc tiling::desktop --layout bsp
+cmd + alt - n : chunkc tiling::desktop --layout monocle
+cmd + alt - m : chunkc tiling::desktop --layout float

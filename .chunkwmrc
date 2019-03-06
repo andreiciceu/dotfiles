@@ -54,37 +54,40 @@ chunkc set window_use_cgs_move           0
 
 
 
-# Desktops configuration
-## 1 Web
-chunkc set 1_desktop_mode                monocle
-## 2 Code
-chunkc set 2_desktop_mode                monocle
-## 3 Test
-chunkc set 3_desktop_mode                float
-## 4 CLI
-chunkc set 4_desktop_mode                bsp
-## 5 ?
-chunkc set 5_desktop_mode                float
-## 6 Media
-chunkc set 6_desktop_mode                float
-
-
+### Windows & desktops
 # window floating rules
 chunkc tiling::rule --owner Finder --name Copy --state float
 chunkc tiling::rule --name \"The Unarchiver\" --state float
 chunkc tiling::rule --owner \"App Store\" --state float
 chunkc tiling::rule --owner Emacs --except "^$" --state tile
-
-
-# window desktop rules
-chunkc tiling::rule --owner Firefox --desktop 1
-chunkc tiling::rule --owner Brave --desktop 1
-chunkc tiling::rule --owner Code --desktop 2
-chunkc tiling::rule --owner Simulator --desktop 3
-chunkc tiling::rule --owner iTerm --desktop 4
-chunkc tiling::rule --owner Spotify --desktop 5
-chunkc tiling::rule --onwer Steam --desktop 6
-
-
-
 # chunkc set window_float_topmost 1
+
+# Desktops configuration
+## 1 Web
+chunkc set 1_desktop_mode                monocle
+chunkc tiling::rule --owner Brave --desktop 1
+chunkc tiling::rule --owner Firefox --desktop 1
+
+## 2 Media
+chunkc set 2_desktop_mode                float
+chunkc tiling::rule --owner Spotify --desktop 2
+chunkc tiling::rule --onwer Steam --desktop 2
+
+## 3 Code
+chunkc set 3_desktop_mode                monocle
+chunkc tiling::rule --owner Code --desktop 3
+
+## 4 Test
+chunkc set 4_desktop_mode                float
+chunkc tiling::rule --owner Simulator --desktop 4
+
+## 5 CLI
+chunkc set 5_desktop_mode                bsp
+chunkc tiling::rule --owner iTerm --desktop 5
+
+## 6 ?
+chunkc set 6_desktop_mode                float
+
+## Other monitor
+chunkc set 7_desktop_mode                float
+chunkc set 8_desktop_mode                float
