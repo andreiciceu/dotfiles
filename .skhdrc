@@ -1,0 +1,4 @@
+cmd + alt - v : yabai -m window --toggle sticky
+cmd + alt - b : yabai -m window --toggle zoom-fullscreen
+cmd + alt - n : yabai -m space --layout bsp
+cmd + alt - m : yabai -m space --layout float
