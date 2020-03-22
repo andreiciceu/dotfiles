@@ -1,4 +1,4 @@
-export PS1="\u[\w]^_^ > "
+export PS1="\u[\w] > "
 export CLICOLOR=1
 alias ls='ls -G'
 
