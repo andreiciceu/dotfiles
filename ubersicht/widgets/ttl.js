@@ -1,18 +1,23 @@
 refreshFrequency: 1000,
-render: function (output) {
-  const maxAge = 90;
-  const birthDate = new Date('1993-02-19');
 
-  function numberWithCommas(x) {
+
+render: function(output) {
+  const numberWithCommas = function(x) {
     x = x.toString();
     var pattern = /(-?\d+)(\d{3})/;
     while (pattern.test(x))
         x = x.replace(pattern, "$1,$2");
     return x;
-  }
+  };
+
+  const lifeExpectancy = 90;
+  const hopedAge = 130;
+  const birthDate = new Date('1993-02-19');
+
   const cDate = new Date();
+
   const dDate = new Date(birthDate.toString());
-  dDate.setYear(dDate.getFullYear() + maxAge);
+  dDate.setYear(dDate.getFullYear() + lifeExpectancy);
   const maxSeconds = Math.round((dDate - birthDate) / 1000);
   const cSeconds = Math.round((cDate - birthDate) / 1000);
   const toLiveSeconds = Math.round((dDate - cDate) / 1000);
@@ -48,4 +53,4 @@ style: `
     left: 190px
     width: 150px
     top: 0
-`
+`,

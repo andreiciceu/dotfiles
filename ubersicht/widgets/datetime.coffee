@@ -11,6 +11,7 @@ style: """
   top: 1px
   position: absolute
   width: 100%
+  color: #eee8d5
 
   .date
     text-align: center
