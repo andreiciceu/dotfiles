@@ -1,5 +1,5 @@
 # Homebrew
-rm -rf ~/Library/Caches/Homebrew/downloads
+brew cleanup
 
 # Node modules
 rm -rf ~/.npm
@@ -20,6 +20,10 @@ docker volume prune
 
 # XCode
 xcrun simctl delete unavailable
-rm -rf ~/Library/Developer/Xcode
-rm -rf ~/Library/Developer/CoreSimulator
+rm -rf ~/Library/Developer/Xcode/DerivedData/
+rm -rf ~/Library/Developer/Xcode/Archives
+rm -rf "~/Library/Developer/Xcode/iOS Device Logs/"
+rm -rf "~/Library/Developer/Xcode/iOS DeviceSupport/"
+# rm -rf ~/Library/Developer/CoreSimulator
 rm -rf ~/Library/Caches/CocoaPods
+rm -rf ~/.cocoapods
