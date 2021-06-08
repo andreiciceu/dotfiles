@@ -6,6 +6,9 @@
 # dotfiles manager
 brew install yadm
 
+# ux
+brew install --cask amethyst
+
 # dev tools
 brew install --cask iterm2
 brew install --cask visual-studio-code
