@@ -6,5 +6,10 @@ Dotfiles &amp; scripts used on macOS
 - run `./scripts/setup-secrets.sh`
 - install
   - XCode (from AppStore)
-- setup
-  - iTerm2: import `iterm.drey.json` profile
+  - 
+### iTerm2:
+- import `iterm.drey.json` profile
+
+### VSCode:
+Plugins:
+- prettier
