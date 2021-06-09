@@ -25,7 +25,7 @@ brew install --cask fork
 brew install watch
 
 ## container
-brew install docker
+brew install --cask docker
 brew install kubectl
 brew install helm
 
