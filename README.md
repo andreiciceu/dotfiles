@@ -13,3 +13,4 @@ Dotfiles &amp; scripts used on macOS
 ### VSCode:
 Plugins:
 - prettier
+- eslint
