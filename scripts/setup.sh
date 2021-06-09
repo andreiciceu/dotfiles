@@ -10,6 +10,7 @@ brew install --cask spotify
 brew install --cask google-chrome
 brew install --cask firefox
 brew install --cask bitwarden
+brew install --cask slack
 
 # ux
 brew install --cask amethyst
