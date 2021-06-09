@@ -2,7 +2,8 @@
 Dotfiles &amp; scripts used on macOS
 
 ## Initial setup of new Mac
-- run `./setup.sh`
+- run `./scripts/setup.sh`
+- run `./scripts/setup-secrets.sh`
 - install
   - XCode (from AppStore)
 - setup
