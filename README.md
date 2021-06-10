@@ -20,3 +20,4 @@ Plugins:
 
 - prettier
 - Tailwind CSS IntelliSense
+- eslint
