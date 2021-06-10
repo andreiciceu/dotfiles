@@ -29,9 +29,6 @@ brew install --cask docker
 brew install kubectl
 brew install helm
 
-## xcode
-xcode-select --install
-
 ## js
 brew install yarn
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
@@ -41,3 +38,7 @@ nvm install node
 brew install --cask android-studio
 brew install openjdk
 
+## iOS
+xcode-select --install
+sudo gem install cocoapods
+sudo gem install fastlane
