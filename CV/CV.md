@@ -1,15 +1,12 @@
+# Curriculum Vitae
 ## BIO
-Andrei Ciceu
+- Andrei Ciceu
+- Full-stack developer & more
+- Cluj-Napoca, Cluj, Romania
+- [+40 726 148 816](tel:0726148816)
+- [andrei@soferonline.ro](mailto:andrei@soferonline.ro)
 
-Full-stack developer & more
-
-Cluj-Napoca, Cluj, Romania
-
-[+40 726 148 816](tel:+40726148816)
-
-[andrei@soferonline.ro](mailto:andrei@soferonline.ro)
-
-#### Social
+### Social
 [![Github](https://logo.clearbit.com/github.com?size=30)](https://github.com/andreiciceu)  [![LinkedIN](https://logo.clearbit.com/linkedin.com?size=30)](https://www.linkedin.com/in/andrei-ciceu-26a35641/)
 
 
