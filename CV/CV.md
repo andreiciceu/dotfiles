@@ -1,0 +1,136 @@
+## BIO
+Andrei Ciceu
+
+Full-stack developer & more
+
+Cluj-Napoca, Cluj, Romania
+
+[+40 726 148 816](tel:+40726148816)
+
+[andrei@soferonline.ro](mailto:andrei@soferonline.ro)
+
+#### Social
+[![Github](https://logo.clearbit.com/github.com?size=30)](https://github.com/andreiciceu)  [![LinkedIN](https://logo.clearbit.com/linkedin.com?size=30)](https://github.com/andreiciceu)
+
+
+## Skills
+- Front-end: React, NextJS, EmberJS, TWIG
+    - Libraries: Redux, Redux-Saga, SWR, Hooks, TailwindCSS, Bootstrap
+- Mobile: React-Native
+- Backend: PHP; Symfony 2, 3, 4, 5; [Api-Platform](https://api-platform.com)
+- DevOps: Github Actions, CircleCI, Fastlane, Git, GitFlow, Docker, GitHub Container Registry
+- Infrastructure: Kubernetes (with Helm), Varnish Cache, AWS (EC2, LB, EKS)
+### Others
+- WebSockets
+- some (limited) GraphQL knowledge (Hasura)
+- Game development: Unity (C#)
+- Other known languages/syntaxes: Bash, C, C++, C#, Python, JavaScript, TypeScript, PHP, LUA, Pascal, Delphi, HTML, CSS
+- Integrations:
+    - Facebook
+    - Apple (Login, Auto-deployment)
+    - Google Play Store, Firebase, Maps API
+    - Stripe, MobilPay (Card & SMS payment), Terracomm (SMS payment)
+    - Slack, Zoom, FGO, Gmail, Mailgun, Sendgrid, D7SMS, 
+    - AWS (S3, RDS, Aurora, Media Platform, etc.)
+    - Sentry.io
+
+
+
+## Experience
+
+### SoferOnline
+- [Web](https://soferonline.ro/) and mobile ([Android](https://www.google.com/search?client=safari&rls=en&q=soferonline+play+store&ie=UTF-8&oe=UTF-8), [iOS](https://apps.apple.com/ro/app/soferonline-chestionare-auto/id1032823451)) e-learning app for drivers licence and CRM platform for driving schools.
+- CEO, CTO, DevOps, Full-Stack Dev: 2015 - present (currently only maintenance)
+
+The idea of this project came up during high-school, while preparing for my drivers licence exam.
+
+Started as a vanilla PHP, HTML, JQuery, CSS project. Was majorly refreshed several times:
+- from vanilla PHP to Symfony 2, using Twig (template engine);
+- from Symfony 2 to Symfony 3 (& new programming patterns & paradigms)
+- from Ionic Cordova to React Native
+- adopted EmberJS framework for the CRM part
+- from one-server-only architecture to Kubernetes
+- from Twig (with JQuery and SCSS) and EmberJS to NextJS (React) and API-only on the PHP part
+
+I've helped build:
+- the infrastructure: Kubernetes on IntoVPS.com, MySQL Database in a hosterion.ro managed VM, S3 for file storage, JWT for authentication
+- Backend: PHP Symfony 3
+- FrontEnd: NextJS, React-Native, EmberJS
+- CI/CD: GitHub Actions, with automatic deployment on GitHub releases
+    - Reporting using Sentry.io and Prometheus for k8 health
+- Testing: PHPUnit, Jest
+- Integrated services: Sentry.io, Netopia Mobilpay Card Payments, D7SMS, Facebook (Auth, Friends), Apple Login, In App Purchases (Process & Verify), Analytics (Google & Firebase), AdMob, Teracomm SMS Payment, Gmail SMTP, Slack, Zoom
+
+The transition to NextJS, Kubernetes and Github Actions was a major step , as it improved a the developers life, ease of updates, stability and quality of the product.
+Over the years, I've worked with 6 developers. Currently the project is in maintenance mode, and has a dedicated team for marketing & support.
+
+It was a lengthy process to get here, but I've learned a lot:
+- it's better to start with simple, robust things, and build upon them
+- it's easier & usually better to use existing tools (e.g. I've build from scratch a PHP WebSocket chat system for live-chat, and replaced it entirely 4 years later with a simple Facebook Chat Widget)
+- it's better (but usually hard) to choose the right tools to start with; the ones widely used are usually the best choice (frameworks, libraries)
+- after creating the requirements, go through them again with the client, and get an OK/agreement/pre-contract
+- much much more...
+
+
+
+### ATACGames
+- Puzzle freemium mobile games: [ColorBOX 2](https://play.google.com/store/apps/details?id=com.ATACGames.ColorBox), [ColorBOX 2](https://play.google.com/store/apps/details?id=com.ATACGames.ColorBoxJourney)
+- Unity Developer: 06.2014 - 09.2017
+
+With my associate, we started our journey into game development by making a copy of Flappy Bird in Unity. After, we decided to create something unique, fun & relaxing to play, so we decided on a connect-3 puzzle game (similar to CandyCrush). I did the development part, while my associate handled design and marketing.
+
+The game was built in Unity3D, written in C#, with the following integrations:
+- Facebook Login, Friends, Share
+- Google Play Services (Leaderboard)
+- Push & Local Notifications
+- Flurry Analytics (after transitioning from our in-house solution) & Crash Reporting
+- In App Payments
+- Reward Video ADS (with Flurry)
+
+This also constituted my licence thesis. The games are still available and played, but development (and maintenance) have been discontinued due to not enough revenue :/.
+
+
+
+### Soundmix.live (now known as EventMix)
+- [Web](https://eventmix.live) and mobile event streaming app.
+- Senior BE PHP Developer: 03.2019 - 08.2019
+
+I was part of the feature team; our mission was to stream events from the Neversea festival (which we successfully accomplished). 
+
+As a PHP back-end developer (Symfony + API-Platform) I helped at building the APIs for the mobile and web clients, along with writing tests (BeHat). I also contributed to the distributed (via Redis) NodeJS WebSocket chat platform that was used in-app along the live-stream.
+
+Here is where I also dove deeper into server configuration and CI/CD, tweaking the Varnish cache to improve response times for publicly-available resources, managing AWS services (load-balancer, Redis, Kubernetes configuration) to fix some issues and improve overall server performance, stability and CI/CD.
+
+Based on my past experiences with react-native mobile apps from SoferOnline, I also communicated effectively and offered solutions to the mobile team.
+
+
+
+
+### WhitePipe
+- [Web](https://white-pipe.com) SaaS business management platform for Freelancers and SMEs
+- CTO, DevOps, Senior FE React Developer: 09.2021 - present
+
+Leading a team of 6 developers, to build a platform that helps freelancers manage mundane/repetitive undertakings (contracts, bills, calendar events, tasks, time-tracking).
+
+Helped create the CI/CD pipelines, server Infrastructure, some coding guidelines and overall structure of the app, while being the middleware between the CEO and dev team.
+
+I also code as a front-end developer, NextJS (React). A nice aspect of the project, where we've had some challenges, is the use of [codegen tools](https://github.com/OpenAPITools/openapi-generator) to generate boilerplate "glue" code for both the Java Spring backend and React Axios front-end. This keeps things alike, avoids types mismatches, and the burden of manually defining TypeScript types.
+
+
+### Others
+- built WordPress websites, some with custom themes:
+    - https://psiholog-psihoterapeut-cluj.ro
+    - https://truenaturedevelopment.ro
+    - https://afacereatasubway.ro
+    - https://lemnulverde.ro
+- [Album ordering form](http://fplus-order.softatac.com) (NexJS)
+- Built a Crypto Trading BOT using the Binance API
+- [Raspberry PI home heating automation](https://github.com/woof-woof)
+- Investor @ [Risky Business Ventures](https://riskybusiness.ro)
+- Built on a start-up idea, SmartStore (shopping delivery app, similar to https://www.bringo.ro/), but it was probably ahead of its time or didn't have the right go-to-market strategy
+- PlayTwin.com (on hold) - GraphQL
+
+
+## Other info
+- I love music (listening & playing), skiing, basketball, nature, good beings
+- I hate badly written code and poor specs
