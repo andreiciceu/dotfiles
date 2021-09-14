@@ -16,7 +16,7 @@
 
 
 ## Skills
-- Front-end: __React, NextJS, EmberJS, TWIG__
+- Front-end: __React, NextJS, EmberJS, TWIG, CSS__ _(SASS, Less, CSS Module, Post CSS)_, HTML, JavaScript, TypeScript
     - Libraries (important ones): __Redux, Redux Saga, SWR, Hooks, TailwindCSS, Bootstrap, Webpack, react-hook-form__
     - Testing: __React testing library, Jest, QUnit__
 - Mobile: __React-Native__
