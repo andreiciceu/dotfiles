@@ -1,22 +1,28 @@
 # Curriculum Vitae
 ## BIO
-- Andrei Ciceu
-- Full-stack developer & more
-- Cluj-Napoca, Cluj, Romania
+- __Andrei Ciceu__; _Cluj-Napoca, Cluj, Romania_
+- Full-stack developer _& more_
 - [+40 726 148 816](tel:0726148816)
 - [andrei@soferonline.ro](mailto:andrei@soferonline.ro)
+- __RO__ (Native), __EN__ (Proeficient), __FR__ (Elementary)
 
 ### Social
 [![Github](https://logo.clearbit.com/github.com?size=30)](https://github.com/andreiciceu)  [![LinkedIN](https://logo.clearbit.com/linkedin.com?size=30)](https://www.linkedin.com/in/andrei-ciceu-26a35641/)
 
+### Studies
+- _2015 - 2017_: UBB Cluj - Master - Artificial Intelligence
+- _2013 - 2014_: University of Wolverhampton, Erasmus, 1 semester - IT Project Management
+- _2012 - 2015_: UBB Cluj - Computer Science - English
+
 
 ## Skills
-- Front-end: React, NextJS, EmberJS, TWIG
-    - Libraries: Redux, Redux-Saga, SWR, Hooks, TailwindCSS, Bootstrap, Webpack
-- Mobile: React-Native
-- Backend: PHP; Symfony 2, 3, 4, 5; [Api-Platform](https://api-platform.com)
-- DevOps: Github Actions, CircleCI, Fastlane, Git, GitFlow, Docker, GitHub Container Registry
-- Infrastructure: Kubernetes (with Helm), Varnish Cache, AWS (EC2, LB, EKS)
+- Front-end: __React, NextJS, EmberJS, TWIG__
+    - Libraries (important ones): __Redux, Redux Saga, SWR, Hooks, TailwindCSS, Bootstrap, Webpack, react-hook-form__
+    - Testing: __React testing library, Jest, QUnit__
+- Mobile: __React-Native__
+- Backend: __PHP__; __Symfony__ 2, 3, 4, 5; [Api-Platform](https://api-platform.com)
+- DevOps: __Github Actions__, __CircleCI__, __Fastlane__, Git, GitFlow, Docker, GitHub Container Registry
+- Infrastructure: __Kubernetes__ (with __Helm__), __Varnish__ Cache, AWS (EC2, LB, EKS)
 ### Others
 - WebSockets
 - Integrations:
@@ -27,15 +33,15 @@
     - Slack, Zoom, FGO, Gmail, Mailgun, Sendgrid, D7SMS, 
     - AWS (S3, RDS, Aurora, Media Platform, etc.)
     - Sentry.io
-- Game development: Unity (C#)
-- Other known languages/syntaxes: Bash, C, C++, C#, Python, JavaScript, TypeScript, PHP, LUA, Pascal, Delphi, HTML, CSS
+- Game development: __Unity__ (C#)
+- Other known languages/syntaxes: Bash, C, C++, C#, Python, JavaScript, TypeScript, PHP, LUA, Pascal, Delphi, HTML, CSS, Nginx, Apache, Varnish, Dockerfile, docker-compose
 - some (limited) GraphQL knowledge (Hasura)
 
 
 
-## Experience
+# Experience
 
-### SoferOnline
+## SoferOnline
 - [Web](https://soferonline.ro/) and mobile ([Android](https://www.google.com/search?client=safari&rls=en&q=soferonline+play+store&ie=UTF-8&oe=UTF-8), [iOS](https://apps.apple.com/ro/app/soferonline-chestionare-auto/id1032823451)) e-learning app for drivers licence and CRM platform for driving schools.
 - CEO, CTO, DevOps, Full-Stack Dev: 2015 - present (currently only maintenance)
 
@@ -50,13 +56,14 @@ Started as a vanilla PHP, HTML, JQuery, CSS project. Was majorly refreshed sever
 - from Twig (with JQuery and SCSS) and EmberJS to NextJS (React) and API-only on the PHP part
 
 I've helped build:
-- the infrastructure: Kubernetes on IntoVPS.com, MySQL Database in a hosterion.ro managed VM, S3 for file storage, JWT for authentication
-- Backend: PHP Symfony 3
-- FrontEnd: NextJS, React-Native, EmberJS
-- CI/CD: GitHub Actions, with automatic deployment on GitHub releases
+- __the infrastructure__: Kubernetes on IntoVPS.com, MySQL Database in a hosterion.ro managed VM, S3 for file storage, JWT for authentication; faced by a load balancer (ingress-nginx), and Nginx
+- __Backend__: PHP Symfony 3, with Continuous integration & testing with GitHub actions, deployment into K8S cluster
+- __FrontEnd__: NextJS, React-Native, EmberJS
+- __Mobile app__: React Native Android/iOS, with SQLite, Redux, Push notifications, Analytics, Fastlane integration with GitHub actions for atumoatic releases
+- __CI/CD__: GitHub Actions, with automatic deployment on GitHub releases
     - Reporting using Sentry.io and Prometheus for k8 health
-- Testing: PHPUnit, Jest
-- Integrated services: Sentry.io, Netopia Mobilpay Card Payments, D7SMS, Facebook (Auth, Friends), Apple Login, In App Purchases (Process & Verify), Analytics (Google & Firebase), AdMob, Teracomm SMS Payment, Gmail SMTP, Slack, Zoom
+- __Testing__: PHPUnit, Jest
+- __Integrated services__: Sentry.io, Netopia Mobilpay Card Payments, D7SMS, Facebook (Auth, Friends), Apple Login, In App Purchases (Process & Verify), Analytics (Google & Firebase), AdMob, Teracomm SMS Payment, Gmail SMTP, Slack, Zoom
 
 The transition to NextJS, Kubernetes and Github Actions was a major step , as it improved a the developers life, ease of updates, stability and quality of the product.
 Over the years, I've worked with 6 developers. Currently the project is in maintenance mode, and has a dedicated team for marketing & support.
@@ -70,7 +77,7 @@ It was a lengthy process to get here, but I've learned a lot:
 
 
 
-### ATACGames
+## ATACGames
 - Puzzle freemium mobile games: [ColorBOX 2](https://play.google.com/store/apps/details?id=com.ATACGames.ColorBox), [ColorBOX 2](https://play.google.com/store/apps/details?id=com.ATACGames.ColorBoxJourney)
 - Unity Developer: 06.2014 - 09.2017
 
@@ -88,7 +95,7 @@ This also constituted my licence thesis. The games are still available and playe
 
 
 
-### Soundmix.live (now known as EventMix)
+## Soundmix.live (now known as EventMix)
 - [Web](https://eventmix.live) and mobile event streaming app.
 - Senior BE PHP Developer: 03.2019 - 08.2019
 
@@ -103,7 +110,7 @@ Based on my past experiences with react-native mobile apps from SoferOnline, I a
 
 
 
-### WhitePipe
+## WhitePipe
 - [Web](https://white-pipe.com) SaaS business management platform for Freelancers and SMEs
 - CTO, DevOps, Senior FE React Developer: 09.2021 - present
 
@@ -114,7 +121,7 @@ Helped create the CI/CD pipelines, server Infrastructure, some coding guidelines
 I also code as a front-end developer, NextJS (React). A nice aspect of the project, where we've had some challenges, is the use of [codegen tools](https://github.com/OpenAPITools/openapi-generator) to generate boilerplate "glue" code for both the Java Spring backend and React Axios front-end. This keeps things alike, avoids types mismatches, and the burden of manually defining TypeScript types.
 
 
-### Others
+## Others
 - built WordPress websites, some with custom themes:
     - https://psiholog-psihoterapeut-cluj.ro
     - https://truenaturedevelopment.ro
@@ -128,6 +135,11 @@ I also code as a front-end developer, NextJS (React). A nice aspect of the proje
 - PlayTwin.com (on hold) - GraphQL
 
 
-## Other info
+# Other info
 - I love music (listening & playing), skiing, basketball, nature, programming, geeky stuff, SF, movies
 - I hate badly written code and poor specs
+
+_Spare the trees & Don't print this if possible_
+
+Good day,
+Andrei.
