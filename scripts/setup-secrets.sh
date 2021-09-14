@@ -10,6 +10,7 @@ cp ~/secrets/id_rsa.pub ~/.ssh/
 chmod 600 ~/.ssh/id_rsa.pub
 
 cp ~/secrets/kubeconfig ~/.kubeconfig
+chmod g+r ~/.kubeconfig
 
 cp ~/secrets/atac-ssh.sh ~/
 chmod +x ~/atac-ssh.sh

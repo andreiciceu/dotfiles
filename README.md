@@ -21,3 +21,7 @@ Plugins:
 - prettier
 - Tailwind CSS IntelliSense
 - eslint
+- css modules
+- code-spell-checker
+- GitLens
+
