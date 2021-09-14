@@ -36,6 +36,7 @@
 - Game development: __Unity__ (C#)
 - Other known languages/syntaxes: Bash, C, C++, C#, Python, JavaScript, TypeScript, PHP, LUA, Pascal, Delphi, HTML, CSS, Nginx, Apache, Varnish, Dockerfile, docker-compose
 - some (limited) GraphQL knowledge (Hasura)
+- Understanding and basic knowledge of: Sales, Client Acquisition, Client management, Marketing, Management, Business, Financials, Stock Market, Accounting.
 
 
 
@@ -55,7 +56,7 @@ Started as a vanilla PHP, HTML, JQuery, CSS project. Was majorly refreshed sever
 - from one-server-only architecture to Kubernetes
 - from Twig (with JQuery and SCSS) and EmberJS to NextJS (React) and API-only on the PHP part
 
-I've helped build:
+Technically, I've contributed to:
 - __the infrastructure__: Kubernetes on IntoVPS.com, MySQL Database in a hosterion.ro managed VM, S3 for file storage, JWT for authentication; faced by a load balancer (ingress-nginx), and Nginx
 - __Backend__: PHP Symfony 3, with Continuous integration & testing with GitHub actions, deployment into K8S cluster
 - __FrontEnd__: NextJS, React-Native, EmberJS
@@ -67,6 +68,8 @@ I've helped build:
 
 The transition to NextJS, Kubernetes and Github Actions was a major step , as it improved a the developers life, ease of updates, stability and quality of the product.
 Over the years, I've worked with 6 developers. Currently the project is in maintenance mode, and has a dedicated team for marketing & support.
+
+Overall, I've occupied all positions (at different times): General Management, Project Management, Sales, Client Management, Marketing, Customer Support, etc. . I've went through them all, in order to better understand the business.
 
 It was a lengthy process to get here, but I've learned a lot:
 - it's better to start with simple, robust things, and build upon them
@@ -130,16 +133,22 @@ I also code as a front-end developer, NextJS (React). A nice aspect of the proje
 - [Album ordering form](http://fplus-order.softatac.com) (NexJS)
 - Built a Crypto Trading BOT using the Binance API
 - [Raspberry PI home heating automation](https://github.com/woof-woof)
-- Investor @ [Risky Business Ventures](https://riskybusiness.ro)
 - Built on a start-up idea, SmartStore (shopping delivery app, similar to https://www.bringo.ro/), but it was probably ahead of its time or didn't have the right go-to-market strategy
 - PlayTwin.com (on hold) - GraphQL
 
 
 # Other info
-- I love music (listening & playing), skiing, basketball, nature, programming, geeky stuff, SF, movies
-- I hate badly written code and poor specs
+- I love music (listening & playing), skiing, biking, basketball, nature, programming, geeky stuff, SF, movies, gaming, barbecue-ing
+- I hate badly written code & poor specs
+- Attended & finished Spherik Accelerator Progamme
+- Investor @ [Risky Business Ventures](https://riskybusiness.ro)
+- Won many prizes in IT/Math/Physics challenges & olympiads (mainly in high-school); proud of 2 mentions at National IT Olympiad ^^
 
+
+
+------
 _Spare the trees & Don't print this if possible_
 
 Good day,
+
 Andrei.
