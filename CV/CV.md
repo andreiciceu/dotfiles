@@ -10,21 +10,18 @@ Cluj-Napoca, Cluj, Romania
 [andrei@soferonline.ro](mailto:andrei@soferonline.ro)
 
 #### Social
-[![Github](https://logo.clearbit.com/github.com?size=30)](https://github.com/andreiciceu)  [![LinkedIN](https://logo.clearbit.com/linkedin.com?size=30)](https://github.com/andreiciceu)
+[![Github](https://logo.clearbit.com/github.com?size=30)](https://github.com/andreiciceu)  [![LinkedIN](https://logo.clearbit.com/linkedin.com?size=30)](https://www.linkedin.com/in/andrei-ciceu-26a35641/)
 
 
 ## Skills
 - Front-end: React, NextJS, EmberJS, TWIG
-    - Libraries: Redux, Redux-Saga, SWR, Hooks, TailwindCSS, Bootstrap
+    - Libraries: Redux, Redux-Saga, SWR, Hooks, TailwindCSS, Bootstrap, Webpack
 - Mobile: React-Native
 - Backend: PHP; Symfony 2, 3, 4, 5; [Api-Platform](https://api-platform.com)
 - DevOps: Github Actions, CircleCI, Fastlane, Git, GitFlow, Docker, GitHub Container Registry
 - Infrastructure: Kubernetes (with Helm), Varnish Cache, AWS (EC2, LB, EKS)
 ### Others
 - WebSockets
-- some (limited) GraphQL knowledge (Hasura)
-- Game development: Unity (C#)
-- Other known languages/syntaxes: Bash, C, C++, C#, Python, JavaScript, TypeScript, PHP, LUA, Pascal, Delphi, HTML, CSS
 - Integrations:
     - Facebook
     - Apple (Login, Auto-deployment)
@@ -33,6 +30,9 @@ Cluj-Napoca, Cluj, Romania
     - Slack, Zoom, FGO, Gmail, Mailgun, Sendgrid, D7SMS, 
     - AWS (S3, RDS, Aurora, Media Platform, etc.)
     - Sentry.io
+- Game development: Unity (C#)
+- Other known languages/syntaxes: Bash, C, C++, C#, Python, JavaScript, TypeScript, PHP, LUA, Pascal, Delphi, HTML, CSS
+- some (limited) GraphQL knowledge (Hasura)
 
 
 
@@ -132,5 +132,5 @@ I also code as a front-end developer, NextJS (React). A nice aspect of the proje
 
 
 ## Other info
-- I love music (listening & playing), skiing, basketball, nature, good beings
+- I love music (listening & playing), skiing, basketball, nature, programming, geeky stuff, SF, movies
 - I hate badly written code and poor specs
