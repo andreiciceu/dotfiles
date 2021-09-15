@@ -151,7 +151,7 @@ I also code as a front-end developer, NextJS (React). A nice aspect of the proje
 
 
 ------
-[View Original](https://github.com/andreiciceu/dotfiles/blob/master/CV/CV.md)  [Download PDF](https://raw.githubusercontent.com/andreiciceu/dotfiles/master/CV/CV.pdf)
+[View Original](https://github.com/andreiciceu/dotfiles/blob/master/CV/CV.md)  [Download PDF](https://raw.githubusercontent.com/andreiciceu/dotfiles/master/CV/CV.pdf) [![CV to PDF](https://github.com/andreiciceu/dotfiles/actions/workflows/cv_pdf.yaml/badge.svg)](https://github.com/andreiciceu/dotfiles/actions/workflows/cv_pdf.yaml)
 
 
 _Spare the trees & Don't print this if possible_
