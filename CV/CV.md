@@ -45,7 +45,7 @@
 
 ## SoferOnline
 - [Web](https://soferonline.ro/) and mobile ([Android](https://www.google.com/search?client=safari&rls=en&q=soferonline+play+store&ie=UTF-8&oe=UTF-8), [iOS](https://apps.apple.com/ro/app/soferonline-chestionare-auto/id1032823451)) e-learning app for drivers licence and CRM platform for driving schools.
-- CEO, CTO, DevOps, Full-Stack Dev: 2015 - present (currently only maintenance)
+- Founder, CEO, CTO, DevOps, Full-Stack Dev: 2015 - present (currently only maintenance)
 
 The idea of this project came up during high-school, while preparing for my drivers licence exam.
 
@@ -83,7 +83,7 @@ It was a lengthy process to get here, but I've learned a lot:
 
 ## ATACGames
 - Puzzle freemium mobile games: [ColorBOX 2](https://play.google.com/store/apps/details?id=com.ATACGames.ColorBox), [ColorBOX 2](https://play.google.com/store/apps/details?id=com.ATACGames.ColorBoxJourney)
-- Unity Developer: 06.2014 - 09.2017
+- Co-Founder, Unity Developer: 06.2014 - 09.2017
 
 With my associate, we started our journey into game development by making a copy of Flappy Bird in Unity. After, we decided to create something unique, fun & relaxing to play, so we decided on a connect-3 puzzle game (similar to CandyCrush). I did the development part, while my associate handled design and marketing.
 
