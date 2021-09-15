@@ -53,3 +53,7 @@ brew install openjdk
 xcode-select --install
 sudo gem install cocoapods
 sudo gem install fastlane
+
+# env
+yadm clone https://github.com/andreiciceu/dotfiles
+yadm status
