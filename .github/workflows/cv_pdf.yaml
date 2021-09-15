@@ -6,6 +6,7 @@ on:
     # Paths can be used to only trigger actions when you have edited certain files, such as a file within the /docs directory
     paths:
       - 'CV/**.md'
+      - '.github/workflows/cv_pdf.yaml'
 
 jobs:
   converttopdf:
@@ -24,7 +25,7 @@ jobs:
       - uses: actions/upload-artifact@v1
         with:
           name: docs
-          path: pdfs
+          path: CV
       - uses: EndBug/add-and-commit@v7
         with:
           add: 'CV'
