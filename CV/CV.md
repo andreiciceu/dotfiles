@@ -37,6 +37,7 @@
 - Other known languages/syntaxes: Bash, C, C++, C#, Python, JavaScript, TypeScript, PHP, LUA, Pascal, Delphi, HTML, CSS, Nginx, Apache, Varnish, Dockerfile, docker-compose
 - some (limited) GraphQL knowledge (Hasura)
 - Understanding and basic knowledge of: Sales, Client Acquisition, Client management, Marketing, Management, Business, Financials, Stock Market, Accounting.
+- Soft Skills: Giving proper Feedback (Feed forward), Effective & Assertive Communication, Team player, Seeing the big picture and how things fit together, Fast learner, I can understand & do various/different jobs, Critical thinking, I can come up with innovative solutions.
 
 
 
@@ -98,7 +99,7 @@ This also constituted my licence thesis. The games are still available and playe
 
 
 
-## Soundmix.live (now known as EventMix)
+## Soundmix.live (now EventMix)
 - [Web](https://eventmix.live) and mobile event streaming app.
 - Senior BE PHP Developer: 03.2019 - 08.2019
 
@@ -108,7 +109,7 @@ As a PHP back-end developer (Symfony + API-Platform) I helped at building the AP
 
 Here is where I also dove deeper into server configuration and CI/CD, tweaking the Varnish cache to improve response times for publicly-available resources, managing AWS services (load-balancer, Redis, Kubernetes configuration) to fix some issues and improve overall server performance, stability and CI/CD.
 
-Based on my past experiences with react-native mobile apps from SoferOnline, I also communicated effectively and offered solutions to the mobile team.
+Based on my past experiences with react-native mobile apps from SoferOnline, I communicated effectively and offered solutions to the mobile team. I also managed the festival events in the app during one night of the festival (the stream URLs needed to be updated, and events marked accordingly to who was actually on the stage).
 
 
 
@@ -135,6 +136,9 @@ I also code as a front-end developer, NextJS (React). A nice aspect of the proje
 - [Raspberry PI home heating automation](https://github.com/woof-woof)
 - Built on a start-up idea, SmartStore (shopping delivery app, similar to https://www.bringo.ro/), but it was probably ahead of its time or didn't have the right go-to-market strategy
 - PlayTwin.com (on hold) - GraphQL
+
+
+
 
 
 # Other info
