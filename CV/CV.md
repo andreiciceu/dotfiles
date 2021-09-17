@@ -19,7 +19,7 @@
 - Front-end: __React, NextJS, EmberJS, TWIG, CSS__ _(SASS, Less, CSS Module, Post CSS)_, HTML, JavaScript, TypeScript
     - Libraries (important ones): __Redux, Redux Saga, SWR, Hooks, TailwindCSS, Bootstrap, Webpack, react-hook-form__
     - Testing: __React testing library, Jest, QUnit__
-- Mobile: __React-Native__
+- Mobile: __React-Native__, Ionic & Cordova (Angular 2)
 - Backend: __PHP__; __Symfony__ 2, 3, 4, 5; [Api-Platform](https://api-platform.com)
 - DevOps: __Github Actions__, __CircleCI__, __Fastlane__, Git, GitFlow, Docker, GitHub Container Registry
 - Infrastructure: __Kubernetes__ (with __Helm__), __Varnish__ Cache, AWS (EC2, LB, EKS)
