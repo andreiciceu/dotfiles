@@ -49,11 +49,7 @@
 
 ## SoferOnline
 
-<<<<<<< HEAD
-
 - # [Web](https://soferonline.ro/) and mobile ([Android](https://www.google.com/search?client=safari&rls=en&q=soferonline+play+store&ie=UTF-8&oe=UTF-8), [iOS](https://apps.apple.com/ro/app/soferonline-chestionare-auto/id1032823451)) e-learning app for drivers licence and CRM platform for driving schools.
-- [Web](https://soferonline.ro/) and mobile ([Android](https://play.google.com/store/apps/details?id=com.soferonline.soferonline&hl=ro&gl=US), [iOS](https://apps.apple.com/ro/app/soferonline-chestionare-auto/id1032823451)) e-learning app for drivers licence and CRM platform for driving schools.
-  > > > > > > > bf051a56e8b79b2570deb59dfe4217c087e2792c
 - Founder, CEO, CTO, DevOps, Full-Stack Dev: 2015 - present (currently only maintenance)
 
 The idea of this project came up during high-school, while preparing for my drivers licence exam.
