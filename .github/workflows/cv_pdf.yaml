@@ -16,12 +16,11 @@ jobs:
       - uses: actions/checkout@v3
       - uses: baileyjm02/markdown-to-pdf@v1
         with:
-          input_dir: CV
-          output_dir: CV
-          #           images_dir: docs/images
-          #           image_import: ./images
-          # Default is true, can set to false to only get PDF files
+          input_path: CV/
+          output_dir: CV/
           build_html: false
+      - run: git status
+
       - uses: actions/upload-artifact@v3
         with:
           name: docs
