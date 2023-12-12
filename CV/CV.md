@@ -20,12 +20,13 @@
 
 ## Skills
 
-- Front-end: **React, NextJS, EmberJS, TWIG, CSS** _(SASS, Less, CSS Module, Post CSS)_, HTML, JavaScript, TypeScript
-  - Libraries (important ones): **Redux, Redux Saga, SWR, Hooks, TailwindCSS, Bootstrap, Webpack, react-hook-form**
-  - Testing: **React testing library, Jest, QUnit**
+- Front-end: JavaScript, **TypeScript**, **React, NextJS, EmberJS, TWIG, CSS** _(SASS, Less, CSS Module, Post CSS)_, HTML, Electron
+  - Libraries (important ones): **Redux, Redux Saga, SWR, TailwindCSS, Bootstrap, react-hook-form**
+  - Testing: **React testing library, Jest, QUnit, Cypress, Playwright, Enzyme**
+  - Bundlers/tooling: webpack, babel, SWC, npm, yarn, yarn workspaces, Lerna
 - Mobile: **React-Native**, Ionic & Cordova (Angular 2)
 - Backend: **PHP**; **Symfony** 2, 3, 4, 5; [Api-Platform](https://api-platform.com)
-- DevOps: **Github Actions**, **CircleCI**, **Fastlane**, Git, GitFlow, Docker, GitHub Container Registry
+- DevOps: **Github Actions**, **CircleCI**, **Fastlane**, Jenkins, Git, GitFlow, Docker, GitHub Container Registry
 - Infrastructure: **Kubernetes** (with **Helm**), **Varnish** Cache, AWS (EC2, LB, EKS)
 
 ### Others
@@ -46,6 +47,32 @@
 - Soft Skills: Giving proper Feedback (Feed forward), Effective & Assertive Communication, Team player, Seeing the big picture and how things fit together, Fast learner, I can understand & do various/different jobs, Critical thinking, I can come up with innovative solutions.
 
 # Experience
+
+## 8x8 Work - Communications app
+
+- Staff Front-End React/Electron developer: 01.11.2021 - 01.05.2023
+- also helped with DevOps, releases for our app, interacting with other teams to help design a common Micro-frontend architecture for all front-end apps in the company
+
+Worked with an awesome team on an Electron/React user-facing Communication app, called **8x8 Work**, used by over 1m people every month; with custom UI's tailored to suit specific user personas (e.g. Frontdesk specialist, Sales Executive).
+
+Was the lead on designing a Micro-frontend architecture that allows the main (shell) app to incorporate different Views for various user-personas (which could be deployed separately, and are not bundled with the main app).
+
+Implemented performance tracking features to gain observability of how different versions impact stability, usability and user experience (for both the web and native apps).
+
+Added TypeScript support to the project to improve reliability and developer experience, in a way that it will allow incremental adoption for TS (support for both .js and .ts files).
+
+Helped with various new features and bug fixes, pipeline improvements, tooling update and additions, dev-ops infrastructure.
+
+## WhitePipe
+
+- [Web](https://white-pipe.com) SaaS business management platform for Freelancers and SMEs
+- CTO, DevOps, Senior FE React Developer: 09.2020 - present
+
+Leading a team of 6 developers, to build a platform that helps freelancers manage mundane/repetitive undertakings (contracts, bills, calendar events, tasks, time-tracking).
+
+Helped create the CI/CD pipelines, server Infrastructure, some coding guidelines and overall structure of the app, while being the middleware between the CEO and dev team.
+
+I also code as a front-end developer, NextJS (React). A nice aspect of the project, where we've had some challenges, is the use of [codegen tools](https://github.com/OpenAPITools/openapi-generator) to generate boilerplate "glue" code for both the Java Spring backend and React Axios front-end. This keeps things alike, avoids types mismatches, and the burden of manually defining TypeScript types.
 
 ## SoferOnline
 
@@ -117,17 +144,6 @@ As a PHP back-end developer (Symfony + API-Platform) I helped at building the AP
 Here is where I also dove deeper into server configuration and CI/CD, tweaking the Varnish cache to improve response times for publicly-available resources, managing AWS services (load-balancer, Redis, Kubernetes configuration) to fix some issues and improve overall server performance, stability and CI/CD.
 
 Based on my past experiences with react-native mobile apps from SoferOnline, I communicated effectively and offered solutions to the mobile team. I also managed the festival events in the app during one night of the festival (the stream URLs needed to be updated, and events marked accordingly to who was actually on the stage).
-
-## WhitePipe
-
-- [Web](https://white-pipe.com) SaaS business management platform for Freelancers and SMEs
-- CTO, DevOps, Senior FE React Developer: 09.2021 - present
-
-Leading a team of 6 developers, to build a platform that helps freelancers manage mundane/repetitive undertakings (contracts, bills, calendar events, tasks, time-tracking).
-
-Helped create the CI/CD pipelines, server Infrastructure, some coding guidelines and overall structure of the app, while being the middleware between the CEO and dev team.
-
-I also code as a front-end developer, NextJS (React). A nice aspect of the project, where we've had some challenges, is the use of [codegen tools](https://github.com/OpenAPITools/openapi-generator) to generate boilerplate "glue" code for both the Java Spring backend and React Axios front-end. This keeps things alike, avoids types mismatches, and the burden of manually defining TypeScript types.
 
 ## Others
 
