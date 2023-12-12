@@ -9,21 +9,25 @@ on:
       - ".github/workflows/cv_pdf.yaml"
 
 jobs:
-  convert_and_commit_pdf:
-    name: Convert MD to PDF and Commit
+  converttopdf:
+    name: Build PDF
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
-
-      - name: Convert Markdown to PDF
-        uses: docker://pandoc/latex:latest
+      - uses: actions/checkout@v3
+      - uses: baileyjm02/markdown-to-pdf@v1
         with:
-          args: CV/*.md --from markdown --to pdf --output CV/CV.pdf
-
-      - name: Commit PDF
-        uses: stefanzweifel/git-auto-commit-action@v4
+          input_dir: CV
+          output_dir: CV
+          #           images_dir: docs/images
+          #           image_import: ./images
+          # Default is true, can set to false to only get PDF files
+          build_html: false
+      - uses: actions/upload-artifact@v3
         with:
-          commit_message: "Generate CV PDF"
-          file_pattern: CV/CV.pdf
-          branch: master
+          name: docs
+          path: CV
+      - uses: EndBug/add-and-commit@v7
+        with:
+          add: "CV"
+          message: "Generate CV PDF"
+          default_author: github_actions
