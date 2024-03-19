@@ -66,7 +66,7 @@ Helped with various new features and bug fixes, pipeline improvements, tooling u
 ## WhitePipe
 
 - [Web](https://white-pipe.com) SaaS business management platform for Freelancers and SMEs
-- CTO, DevOps, Senior FE React Developer: 09.2020 - present
+- CTO, DevOps, Senior FE React Developer: 09.2020 - 02.2024
 
 Leading a team of 6 developers, to build a platform that helps freelancers manage mundane/repetitive undertakings (contracts, bills, calendar events, tasks, time-tracking).
 
