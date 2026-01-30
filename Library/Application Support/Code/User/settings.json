@@ -1,13 +1,26 @@
 {
   "prettier.printWidth": 100,
   "editor.formatOnSave": true,
+  // "editor.codeActionsOnSave": {
+  //   "source.organizeImports": "explicit"
+  // },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter.notebook.ipynb"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "cSpell.dictionaryDefinitions": [],
-  "cSpell.userWords": [
-    "upsert"
-  ]
+  "cSpell.userWords": ["upsert"],
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.fontFamily": "Monospace Neon",
+  "terminal.integrated.fontFamily": "Monospace",
+  "workbench.colorTheme": "Default Dark+",
+  "redhat.telemetry.enabled": false
 }
